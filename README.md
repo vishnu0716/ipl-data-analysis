@@ -1,68 +1,114 @@
-# 📊 Agriculture Market Price Analysis (INT375 Project)
+# 🏏 IPL Data Analysis & Machine Learning Project
 
-## 📌 Project Overview
-This project analyzes agricultural commodity prices using data science techniques.
-The dataset contains market-wise daily price data including minimum, maximum, and modal prices.
+## 📌 Problem Statement
+
+The Indian Premier League (IPL) generates a vast amount of match data, but extracting meaningful insights from this data is challenging. This project aims to analyze IPL match data to identify key factors influencing match outcomes, evaluate team performance, and apply statistical and machine learning techniques to uncover patterns and predictions.
 
 ---
 
 ## 🎯 Objectives
-1. Perform data cleaning and preprocessing
-2. Conduct exploratory data analysis (EDA)
-3. Analyze trends across time (monthly & yearly)
-4. Test normality of data
-5. Perform hypothesis testing
+
+* Perform data cleaning to ensure data quality
+* Explore and visualize IPL match data
+* Analyze trends across seasons
+* Apply statistical tests to validate assumptions
+* Build a machine learning model to predict match outcomes
+
+---
+
+## 📊 Dataset
+
+* IPL match dataset (`ipl_dataset.csv`)
+* Contains information about teams, matches, toss, results, and performance
+
 ---
 
 ## 🧹 Data Cleaning
-* Converted date and numeric columns
-* Removed duplicates
-* Handled missing values using forward and backward fill
-* Ensured no null values remain
----
 
-## 📊 Exploratory Data Analysis (EDA)
-* Correlation Heatmap
-* Histogram
-* Boxplot
-* Scatter Plot
-* Trend Line Graph
----
-## 📈 Trend Analysis
-* Monthly price trends
-* Yearly price trends
-* Seasonal variation analysis
+* Handled missing values using mean, median, and mode
+* Removed duplicate records
+* Eliminated invalid entries
+* Converted data types (e.g., date column)
+* Verified dataset (no missing values, no duplicates)
 
 ---
-## 🧪 Statistical Analysis
-### 🔹 Shapiro-Wilk Test
-* Result: Data is **not normally distributed**
-### 🔹 T-Test (Jan vs Feb)
-* Result: No significant difference
-### 🔹 One Sample T-Test
-* Result: Mean significantly differs from benchmark
-### 🔹 Z-Test
-* Result: Significant difference from population mean
 
-### 🔹 Chi-Square Test
-* Result: Relationship exists between Variety and Grade
+## 📈 Exploratory Data Analysis (EDA)
+
+* Team-wise win analysis
+* Toss decision distribution
+* Match result distribution
+* Win margin analysis
+* Scatter plots for variable relationships
+* Pie chart for win share of all teams
+
+---
+
+## 📉 Trend Analysis
+
+* Matches played across seasons
+* Average scoring trends over time
+
+---
+
+## 📊 Statistical Analysis
+
+### ✔ Normality Test
+
+* Shapiro-Wilk test applied to check data distribution
+
+### ✔ Hypothesis Testing
+
+* T-test → compare team performances
+* Z-test → analyze average runs
+* Chi-square test → evaluate toss impact
+
+---
+
+## 🧠 Advanced Analysis
+
+* Correlation heatmap
+* K-Means clustering
+* Elbow method to find optimal clusters
+* PCA for visualization
+
+---
+
+## 🤖 Machine Learning
+
+* Random Forest Classifier
+* Predicts match outcomes
+* Evaluated using accuracy score
+
 ---
 
 ## 🛠️ Technologies Used
+
 * Python
 * Pandas
 * NumPy
-* Matplotlib
-* Seaborn
-* SciPy
+* Matplotlib & Seaborn
+* Scikit-learn
 * Statsmodels
+
 ---
-## 📂 Dataset
-* Source: https://www.kaggle.com/datasets/anishaman07/agmarknet-india-commodity-prices-oct24-aug25?utm_source=chatgpt.com
+
+## 📌 Conclusion
+
+This project demonstrates how data analysis, statistical techniques, and machine learning can be combined to extract meaningful insights from sports data and support decision-making.
+
 ---
-## 🚀 Conclusion
-The project successfully demonstrates data cleaning, visualization, and statistical analysis.
-It provides insights into price patterns and relationships in agricultural markets.
+
+## 🚀 Future Improvements
+
+* Improve model accuracy with more features
+* Use advanced models (XGBoost, Deep Learning)
+* Deploy as a web application
+
 ---
+
 ## 👨‍💻 Author
-INT375 Project – Data Science Analysis
+
+* Pulikanti Vishnuvardhan Reddy
+
+---
