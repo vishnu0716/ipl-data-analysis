@@ -1,4 +1,4 @@
-# 🏏 IPL Data Analysis & Machine Learning Project
+# 🏏 IPL Data Analysis 
 
 ## 📌 Problem Statement
 
